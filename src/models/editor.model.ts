@@ -4,7 +4,7 @@ type TUser = {
   email: string;
   city: string;
   hobbies?: string[];
-  status: "employed" | "unemployeed";
+  isEmployeed: boolean;
 };
 
 type TEditorProps = {
@@ -14,4 +14,8 @@ type TEditorProps = {
   setErrors: (errors: string[]) => void;
 };
 
-export type { TUser, TEditorProps };
+type TValidationPanelProps = {
+  errors: string[];
+};
+
+export type { TUser, TEditorProps, TValidationPanelProps };
