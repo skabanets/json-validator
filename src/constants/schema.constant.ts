@@ -11,12 +11,9 @@ const JSON_EDITOR_SCHEMA = {
       minItems: 1,
       uniqueItems: true,
     },
-    status: {
-      type: "string",
-      enum: ["employed", "unemployeed"],
-    },
+    isEmployeed: { type: "boolean" },
   },
-  required: ["name", "age", "email", "city", "status"],
+  required: ["name", "age", "email", "city", "isEmployeed"],
   additionalProperties: false,
 } as const;
 
