@@ -21,3 +21,8 @@ Validate JSON syntax and schema in real-time with instant feedback and visual JS
 - Tailwind CSS
 - react-json-view-lite
 - lucide-react (for icons)
+
+## Screenshots
+
+![valid-json](./public/valid-json.webp)
+![json-whih-errors](./public/json-whih-errors.webp)
