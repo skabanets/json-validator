@@ -18,4 +18,8 @@ type TValidationPanelProps = {
   errors: string[];
 };
 
-export type { TUser, TEditorProps, TValidationPanelProps };
+type TJsonViewerProps = {
+  parsedJson: TUser | null;
+};
+
+export type { TUser, TEditorProps, TValidationPanelProps, TJsonViewerProps };
