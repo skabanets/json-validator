@@ -1,12 +1,12 @@
 import { useState } from "react";
 import Editor from "./Editor";
+import JsonViewer from "./JsonViewer";
+import ValidationPanel from "./ValidationPanel";
 import {
   INITIAL_JSON_INPUT,
   INITIAL_JSON_INPUT_WITH_ERRORS,
 } from "../constants/initialValues.constant";
 import type { TUser } from "../models/editor.model";
-import ValidationPanel from "./ValidationPanel";
-import JsonViewer from "./JsonViewer";
 
 const App = () => {
   const [jsonInput, setJsonInput] = useState<string>(

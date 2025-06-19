@@ -1,8 +1,8 @@
 import type { FC } from "react";
 import { JsonView, allExpanded, defaultStyles } from "react-json-view-lite";
-import "react-json-view-lite/dist/index.css";
-import type { TJsonViewerProps } from "../models/editor.model";
 import { AlertCircle, FileJson } from "lucide-react";
+import type { TJsonViewerProps } from "../models/editor.model";
+import "react-json-view-lite/dist/index.css";
 
 const JsonViewer: FC<TJsonViewerProps> = ({ parsedJson }) => {
   if (!parsedJson) {

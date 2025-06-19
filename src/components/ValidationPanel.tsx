@@ -1,6 +1,6 @@
+import { CheckCircle, XCircle } from "lucide-react";
 import type { FC } from "react";
 import type { TValidationPanelProps } from "../models/editor.model";
-import { CheckCircle, XCircle } from "lucide-react";
 
 const ValidationPanel: FC<TValidationPanelProps> = ({ errors }) => {
   if (errors.length === 0) {
